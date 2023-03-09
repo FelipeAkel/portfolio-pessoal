@@ -1269,12 +1269,24 @@ header .menu-button.menu-button--open span:nth-child(3) {
 
 /*======== 5. About Section ========*/
 
+.about-img img{
+	max-width: 450px;
+	max-height: 450px;
+	width: auto;
+	height: auto;
+	float: left;
+	margin-right: 30px;
+}
+
+
 .section-about .about-img img {
 	border: 10px solid rgba(255, 255, 255, 0.03);
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+
+
 }
 
 .section-about .about-info h3 {
@@ -2007,6 +2019,13 @@ header .back-button i {
 	font-weight: 600;
 }
 
+.centralizar {
+	text-align: center;
+}
+
+.texto-justificado {
+	text-align: justify;
+}
 
 /*======== 11. Mobile Responsive Css ========*/
 
@@ -2014,11 +2033,21 @@ header .back-button i {
 	.section-home .banner-text .text-slideshow .animate-title {
 		font-size: 58px;
 	}
-	.section-about .about-img {
+	.section-about {
 		margin-bottom: 40px;
 	}
 	.section-contact .contact-detail {
 		margin-bottom: 40px;
+	}
+
+	.about-img img{
+		max-width: 350px;
+		max-height: 350px;
+		width: auto;
+		height: auto;
+		float: left;
+		margin-right: 30px;
+		margin-bottom: 5px;
 	}
 }
 
@@ -2036,6 +2065,12 @@ header .back-button i {
 	}
 	.section-home .banner-text .text-slideshow .animate-title {
 		font-size: 50px;
+	}
+
+	.about-img img{
+		width: auto;
+		height: auto;
+		margin-bottom: 30px;
 	}
 }
 
