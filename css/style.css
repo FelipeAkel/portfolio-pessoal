@@ -1656,7 +1656,7 @@ header .menu-button.menu-button--open span:nth-child(3) {
 	position: relative;
 	text-align: center;
 	cursor: pointer;
-	background: #e1e1e1;
+	/* background: #e1e1e1; */
 	margin-bottom: 20px;
 	overflow: hidden;
 }
