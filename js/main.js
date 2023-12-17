@@ -114,6 +114,30 @@ $(document).ready(function() {
         },
     });
 
+    $(".projeto .owl-carousel").owlCarousel({
+        loop: true,
+        margin: 30,
+        autoplay: true,
+        smartSpeed: 500,
+        responsiveClass: true,
+        autoplayHoverPause: true,
+        dots: false,
+        responsive: {
+            0: {
+                items: 2,
+            },
+            575: {
+                items: 3,
+            },
+            768: {
+                items: 4,
+            },
+            1000: {
+                items: 6,
+            },
+        },
+    });
+
     /*======== Google Map Setup ========*/
     if($('#map').length) {
         initMap();

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+
+<head>
+
+    <!--Meta Tags-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Page Title-->
+    <title>Projeto Git e GitHub</title>
+
+    <!--Plugins Css-->
+    <link rel="stylesheet" type="text/css" href="../css/plugins.css" />
+    <!--Main Styles Css-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <!--Color Css-->
+    <link rel="stylesheet" type="text/css" href="../css/tan-color.css" />
+
+    <!--Modernizr Js-->
+    <script src="../js/modernizr.js"></script>
+
+    <!--Favicons-->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <!--Preloader Start-->
+    <div class="preloader">
+        <div class="loading-text">
+            <span class="loading-text-words" data-preloader="C">C</span>
+            <span class="loading-text-words" data-preloader="A">A</span>
+            <span class="loading-text-words" data-preloader="R">R</span>
+            <span class="loading-text-words" data-preloader="R">R</span>
+            <span class="loading-text-words" data-preloader="R">E</span>
+            <span class="loading-text-words" data-preloader="G">G</span>
+            <span class="loading-text-words" data-preloader="A">A</span>
+            <span class="loading-text-words" data-preloader="N">N</span>
+            <span class="loading-text-words" data-preloader="D">D</span>
+            <span class="loading-text-words" data-preloader="O">O</span>
+        </div>
+    </div>
+    <!--Preloader End-->
+
+
+    <!-- Header Start -->
+    <header>
+
+        <!-- Back button -->
+        <a class="back-button" onclick="goBack()">
+            <i class="fas fa-reply"></i>
+        </a>
+
+    </header>
+    <!-- Header End -->
+
+
+    <div class="single-blog" data-simplebar>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="mt-80">
+
+                        <div class="blog-image mb-40">
+                            <img src="../img/portfolio/map-dev-portfolio.png" alt="">
+                        </div>
+
+                        <div class="col-lg-10 offset-lg-1 mb-30">
+                            <ul class="blog-category mb-15">
+                                <li> <a>HTML</a> </li>
+                                <li> <a>CSS</a> </li>
+                                <li> <a>Git</a> </li>
+                                <li> <a>GitHub</a> </li>
+                            </ul>
+                            <h2 class="blog-title text-center">Projeto Git e GitHub</h2>
+                        </div>
+
+                        <div class="blog-content">
+                            <p>
+                                Ao concluir o curso de Git e GitHub é importante praticar os comandos aprendidos para
+                                fixar o conteúdo. Logo, aproveitei para praticar o HTML e CSS para criar um mini
+                                portfólio simples como exemplo.
+                            </p>
+                            <p>Este projeto teve como <strong>objetivo principal</strong> executar todos os conhecimentos fixados de Git
+                                e o GitHub. Primeiro, <strong>Git</strong> é o um <b>sistema</b> de controle de versão, baseado em repositório o
+                                qual contém todas as versões do código, com critografia e código aberto. Segundo, <strong>GitHub</strong>
+                                é um <b>serviço</b> para gerenciar os repositórios, gratuítos e podemos enviar os projetos
+                                para diponibiliza-los para outros DEVs. 
+                            </p>
+
+                            <blockquote>Clonando um projeto </blockquote>
+                            <ul>
+                                <li>git clone URL . [Clonando um repositório do GitHub]</li>
+                                <li>git remote -v [Verificando repositório está vinculado ao GitHub correto]</li>
+                                <li>git branch [Verificando qual branch está realizando as alterações]</li>
+                                <li>git checkout -b branch-funcionalidade-x [Criando uma branch nova]</li>
+                            </ul>
+
+                            <blockquote>Comandos principais de branch</blockquote>
+                            <ul>
+                                <li>git branch</li>
+                                <li>git pull [Baixando os arquivos e modificações do repositório no GitHub]</li>
+                                <li>git status [Verificando alterações nos arquivos]</li>
+                                <li>git add . [Adicionando arquivos TODOS os arquivos criados e modificados]</li>
+                                <li>git commit -a -m "Descrição do Commit" [Realizando o commit das alterações na branch]</li>
+                                <li>git push [Enviando as alterações no repositório do GitHub]</li>
+                            </ul>
+
+                            <div class="resume-button mb-30 text-center">
+                                <a class="main-btn" href="https://felipeakel.github.io/projeto-final-github/"
+                                    target="_blank">Acesse a página!</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Jquery JS-->
+    <script src="../js/jquery.min.js"></script>
+    <!--Plugins JS-->
+    <script src="../js/plugins.min.js"></script>
+    <!--Site Main JS-->
+    <script src="../js/main.js"></script>
+
+    <script>
+        function goBack() {
+            window.history.back()
+        }
+    </script>
+</body>
+
+</html>

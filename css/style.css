@@ -1480,6 +1480,36 @@ header .menu-button.menu-button--open span:nth-child(3) {
 }
 
 
+
+.projeto .projeto-logo {
+	border: 2px solid rgba(255, 255, 255, 0.03);
+	padding: 10px;
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+.projeto .projeto-logo:hover {
+	border-color: rgba(255, 255, 255, 0.7);
+}
+
+.projeto .projeto-logo:hover img {
+	opacity: 1;
+}
+
+.projeto .projeto-logo img {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	/* opacity: .5; */
+	align-items: center;
+	-webkit-transition: opacity .4s ease;
+	-o-transition: opacity .4s ease;
+	transition: opacity .4s ease;
+}
+
+
+
 /*======== 6. Resume Section ========*/
 
 .section-resume .experience,
