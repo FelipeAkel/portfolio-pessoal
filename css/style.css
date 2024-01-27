@@ -2182,3 +2182,13 @@ header .back-button i {
 .icons-social{
 	width: 24px;
 }
+
+.img-box img.img-hover {
+	display: none;
+}
+.img-box:hover img.img-default {
+	display: none;
+}
+.img-box:hover img.img-hover {
+	display: inherit;
+}
